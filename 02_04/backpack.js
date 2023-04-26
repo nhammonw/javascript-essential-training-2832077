@@ -26,3 +26,7 @@ const backpack = {
 };
 
 export default backpack;
+
+// this is just ln 4 - 29 from 02_02/script
+// objects may not be the best to place here because of access
+// but it still has it's uses like classes for example

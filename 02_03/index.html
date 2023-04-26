@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Module demo</title>
+    <!-- instead of moving the code to the place after it's referenced in the HTML 
+    defer(ln 11)-> downloads js along with the parsing, and execute after HTML is parsed
+    async-> download the js file while parsing, stop when you have it to execute
+  -->
     <script src="script.js" defer></script>
   </head>
   <body></body>

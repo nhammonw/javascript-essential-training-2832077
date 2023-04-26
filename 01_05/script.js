@@ -7,6 +7,12 @@
 /* Multi-line comment
 See! this line is also commented out! */
 
+/**
+ * Example of "Verbose Comment"
+ * function updateBackpack()
+ * Outputs HTML
+ * @param {string} update
+ */
 const updateBackpack = (update) => {
   let main = document.querySelector("main"); // main is an element
   main.innerHTML = markup(backpack);
@@ -16,7 +22,7 @@ const updateBackpack = (update) => {
 const backpack = {
   name: "Everyday Backpack",
   volume: 30,
-  color: "grey",
+  color: "grey", //code can be comment out with ctrl + /
   pocketNum: 15,
   strapLength: {
     left: 26,
